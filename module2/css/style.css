@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.abed {
+    margin: 0px;
+    background-color: rgb(131, 207, 131);
+    position: relative;
+    left: 85%;
+    width: 15%;
+    border: solid 1px;
+    border-color: black;
+}
+
+.troy {
+    margin: 0px;
+    background-color: rgb(133, 160, 211);
+    position: relative;
+    left: 85%;
+    width: 15%;
+    border: solid 1px;
+    border-color: black;
+}
+
+.annie {
+    margin: 0px;
+    background-color: rgb(186, 131, 207);
+    position: relative;
+    left: 85%;
+    width: 15%;
+    border: solid 1px;
+    border-color: black;
+}
+
+p {
+    margin: 5px;
+}
+
+#block {
+    margin-bottom: 5px;
+    border: solid 1px;
+    border-color: black;
+    background-color: rgba(230, 218, 203, 0.932);
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+}
+
+/* Desktop, all in one row*/
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Tablet, two in first row, third in row full */
+@media (max-width: 991px) and (min-width: 768px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+/* Mobile, each in one row */
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
