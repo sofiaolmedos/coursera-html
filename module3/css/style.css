@@ -1,0 +1,20 @@
+#header-nav {
+    background-color: #90a4ae;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.navbar-brand {
+    text-align: left;
+    margin-left: 10px;
+}
+
+h2{
+ margin-top: 5px;
+}
+
+#container-text {
+    background-color: #b1c2ca;
+    height: 1000px;
+    margin: 10px;
+}
